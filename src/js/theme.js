@@ -7,7 +7,6 @@ const theme = {
 };
 
 document.body.classList.add(theme.LIGHT);
-
 const savedTheme = localStorage.getItem('theme');
 
 refs.themeSwitcher.addEventListener('change', onThemeChange);

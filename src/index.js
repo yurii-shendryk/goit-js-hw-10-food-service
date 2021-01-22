@@ -1,3 +1,3 @@
-import './styles.css';
-import './js/template';
+import './styles.scss';
 import './js/theme';
+import './js/lazy-load';

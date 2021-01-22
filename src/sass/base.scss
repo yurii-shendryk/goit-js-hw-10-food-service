@@ -141,9 +141,17 @@ body.dark-theme {
 }
 
 .card__image {
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 500ms linear;
   height: 300px;
   object-fit: cover;
   max-width: 100%;
+}
+
+.appear {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .card__name {
